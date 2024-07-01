@@ -1,0 +1,83 @@
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.preview{
+    height: 650px;
+    width: 480px;
+    padding: 100px;
+    position: relative;
+    left: 60px;
+}
+
+.container2{
+    position: relative;
+    padding: 0px;
+    top: 100px;
+    
+}
+
+.heading-text{
+    font-size: 45px;
+    position: relative;
+    
+    
+}
+
+.preview-images{
+    height: 120px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.para{
+    font-size: 20px;
+    position: relative;
+    top: 18px;
+}
+
+.price{
+    font-size: 25px;
+    position: relative;
+    top: 35px;
+    color: green;
+}
+
+.heading1{
+    position: relative;
+    top: 25px;
+    color: rgb(77, 76, 76);
+}
+
+.paraVal{
+    font-size: 18px;
+    color: gray;
+    position: relative;
+    top: 25px;
+}
+
+.para2{
+    font-size: 22px;
+    position: relative;
+    top: 25px;
+
+}
+
+.active{
+    border: 3px solid green;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 95%;
+        flex-wrap: wrap;
+        
+    }
+}
