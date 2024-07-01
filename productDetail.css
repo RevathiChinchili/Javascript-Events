@@ -70,14 +70,6 @@ body {
 }
 
 .active{
-    border: 3px solid green;
-    border-radius: 3px;
-}
-
-@media only screen and (max-width: 600px){
-    .container{
-        width: 95%;
-        flex-wrap: wrap;
-        
-    }
+    border: 2px solid green;
+    border-radius: 10px;
 }
