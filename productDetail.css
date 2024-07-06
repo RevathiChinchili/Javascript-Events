@@ -70,6 +70,25 @@ body {
 }
 
 .active{
-    border: 2px solid green;
+    border: 2.4px solid green;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .preview{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .preview-images{
+        height: 60px;
+        width: 50px;
+    }
+    .container2{
+        position: relative;
+        left: 50px;
+    }
 }
